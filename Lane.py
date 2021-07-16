@@ -1,5 +1,7 @@
 # Developer - JustNikhill
 
+#Before detecting lane lines, we masked remaining objects and then identified the line with Hough transformation.
+
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
