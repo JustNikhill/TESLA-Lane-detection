@@ -9,8 +9,9 @@
 - math
 
 ## How to run in your device? 
-- Clone or download ZIP(https://github.com/JustNikhill/TESLA-Lane-detection/archive/refs/heads/main.zip) file
+- Clone or download [ZIP](https://github.com/JustNikhill/TESLA-Lane-detection/archive/refs/heads/main.zip) file
 - Install modules 
 
 ## Need help? 
-- Contact me - LinkedIn(https://www.linkedin.com/in/nikhil-yadav-609435203/)
+- Contact me -  [LinkedIn](https://www.linkedin.com/in/nikhil-yadav-609435203/) 
+
