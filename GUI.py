@@ -1,3 +1,6 @@
+# developer - JustNikhill
+
+#imports
 import tkinter as tk
 from tkinter import *
 import cv2
@@ -5,10 +8,11 @@ from PIL import Image, ImageTk
 import os
 import numpy as np
 
-
-global last_frame1                                    #creating global              variable
+# Global variable
+global last_frame1                                    
 last_frame1 = np.zeros((480, 640, 3), dtype=np.uint8)
-global last_frame2                                      #creating global      variable
+#Global variable
+global last_frame2                                      
 last_frame2 = np.zeros((480, 640, 3), dtype=np.uint8)
 global cap1
 global cap2
@@ -54,7 +58,6 @@ if __name__ == '__main__':
     root=tk.Tk()   
     img = ImageTk.PhotoImage(Image.open("logo.png"))
     heading = Label(root,image=img, text="Lane-Line Detection")
-    # heading.configure(background='#CDCDCD',foreground='#364156')
     heading.pack() 
     heading2=Label(root,text="Lane-Line Detection",pady=20, font=('arial',45,'bold'))                                 
     heading2.configure(foreground='#364156')
